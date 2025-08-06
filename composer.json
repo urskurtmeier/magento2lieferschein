@@ -1,5 +1,5 @@
 {
-  "name": "spiegelurs/magento2lieferschein",
+  "name": "urskurtmeier/magento2lieferschein",
   "description": "Erweiterung des Ausdrucks des Lieferscheines.",
   "type": "magento2-module",
   "version": "1.0.0",
@@ -22,7 +22,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "spiegelurs\\magento2lieferschein\\": ""
+      "urskurtmeier\\magento2lieferschein\\": ""
     }
   }
 }
