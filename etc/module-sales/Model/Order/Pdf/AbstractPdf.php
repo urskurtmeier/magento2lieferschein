@@ -149,7 +149,7 @@ abstract class AbstractPdf extends Magento\Sales\Model\Order\Pdf\AbstractPdf
         }
 
         $addressesEndY = $this->y;
-
+        $Address_x = 400; //original 285
         if (!$order->getIsVirtual()) {
             $this->y = $addressesStartY;
             $shippingAddress = $shippingAddress ?? []; // @phpstan-ignore-line
